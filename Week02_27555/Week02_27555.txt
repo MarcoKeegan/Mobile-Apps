@@ -1,0 +1,8 @@
+2.
+a. yang terjadi saat mengosongkan Angka 1 & 2 apps akan keluar dengan sendirinya seperti force stop. penyebabnya kemungkinan empty string, langkah-langkah yg mungkin dapat memperbaiki error tersebut adalah mungkin dengan membuat nilai dari Angka 1 & 2 menjadi Nilai 0 agar saat Run dalam keadaan kosong akan melakukan perhitungan dengan Nilai angka 1 & 2 adalah 0.
+
+b. yang terjadi sama dengan pengujian sebelumnya, yaitu terjadi forcestop, penyebabnya kemungkinan karena empty string, langkah-langkah yang dapat dilakukan mungkin sama dengan pengujian a yaitu membuat nilai awal angka 1&2 menjadi 0.
+
+c. yang terjadi yaitu force stop pada aplikasi, penyebabnya kemungkinan karena empty string pada angka 1, langkah-langkah yang dapat dilakukan mungkin sama dengan pengujian a&b yaitu membuat nilai awal angka 1&2 menjadi 0.
+
+3.kesimpulan hasil debugging saya adalah saat melakukan step-over, debuggger akan menjalankan baris saat program berhenti lalu menuju ke baris selanjutnya dan berhenti sementara. lalu untuk step-into jika pada saat baris dimana program berhenti ia akan memanggil suatu method oleh karena itu debugger akan masuk dalam method yang digunakan, lalu untuk step-out debugger menyelesaikan hingga akhir method lalu kembali ke baris semula saat melakukan step-into, dan resume adalah untuk kembali menjalankan program seperti semula.
